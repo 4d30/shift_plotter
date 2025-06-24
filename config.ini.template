@@ -1,0 +1,16 @@
+[paths]
+rto = YOUR_RTO
+drt_code_output = %(rto)s/Corbett/Data/sibel_hmm_output
+quad_file =./240729_frame_shift_inspection_quads.csv
+workdir = ./workdir
+input = %(workdir)s/input
+ecfs = %(workdir)s/ecfs
+spl = %(workdir)s/spl.csv
+output = %(workdir)s/output_iter.csv
+output_3q = %(workdir)s/output_3q.csv
+
+[database]
+host = abl11cbmsv1
+port = 5432
+dbname = corbett
+user = YOUR_USER
